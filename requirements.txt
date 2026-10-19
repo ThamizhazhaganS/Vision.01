@@ -1,0 +1,16 @@
+# VisionGuard AI - Dependency Requirements
+# Compatible with Python 3.10 - 3.12 (Windows / Linux / macOS)
+
+# Core Computer Vision & Deep Learning
+ultralytics>=8.3.0
+opencv-python-headless>=4.8.0; sys_platform == 'linux'
+opencv-python>=4.8.0; sys_platform != 'linux'
+pillow>=10.0.0
+numpy>=1.24.0,<2.2.0
+
+# User Interface & Analytics
+streamlit>=1.35.0
+pandas>=2.0.0
+
+# Testing
+pytest>=8.0.0

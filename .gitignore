@@ -1,0 +1,32 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Ultralytics & Model Weights
+*.pt
+*.onnx
+runs/
+.ultralytics/
+
+# Temporary Outputs & Uploads
+outputs/*
+!outputs/.gitkeep
+temp/
+*.tmp
+
+# IDEs & System Artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
